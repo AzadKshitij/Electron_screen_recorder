@@ -1,0 +1,87 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  padding-top: 1px;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.windowTitle {
+  padding: 10px;
+  height: auto;
+  display: inline-block;
+  font-family: montserrat;
+}
+
+.titleBar {
+  background-color: #202327;
+  color: white;
+  font-size: 10pt;
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+}
+
+.windowControls {
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin-right: 5px;
+  width: 100px;
+  padding: 4px;
+}
+
+.windowControls button {
+  outline: 0;
+  border: 0;
+  padding: 5px;
+  background: none;
+}
+
+#video {
+  width: 100%;
+  height: auto;
+}
+
+.windowTitle {
+  padding: 10px;
+  height: auto;
+  display: inline-block;
+  font-family: montserrat;
+}
+
+.button {
+  background-color: #00ffd9; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.stopBtn {
+  background-color: #e5ff00;
+}
+
+.selectVideoBtn {
+  background-color: black;
+  color: white;
+}
+
+.unselect {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ and Edge */
+  user-select: none; /* Standard syntax */
+}
