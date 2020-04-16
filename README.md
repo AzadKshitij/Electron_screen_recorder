@@ -3,14 +3,12 @@ A basic screen recorder made with electron framework
 
 # Getting Started
 Download [node.js](https://nodejs.org/en/download/) on your maschine.
+
 In CMD run the command
 
 ```node
+git cloan "https://github.com/AzadKshitij/Electron_screen_recorder.git"
 npm install electron
-```
-Download the repository and in the downloaded directory just run the command 
-
-```node
 npm start
 ```
 And it will start..
